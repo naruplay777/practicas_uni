@@ -1,0 +1,85 @@
+body{
+
+	background: #13201F;
+	font-family: montserrat;
+	color: white;
+}
+
+.hobbies{
+
+	color: #74BFBB;
+	background: #26403E;
+	padding: 20px;
+	padding-top: 0;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.juegosFAV{
+
+	background: #4D807D;
+	padding: 20px;
+	padding-top: 5px;
+	text-align: justify;
+	color: #13201F;
+	border: 7px solid #3A605E;
+	border-top: 0px;
+	border-left: 0px;
+	border-right-width: 10px;
+
+	border-radius: 25px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+
+	overflow: hidden;
+
+
+}
+
+.imagen{
+
+	display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+
+}
+
+.icono{
+
+	width: 200px;
+    background-color: #4D807D;
+    border-radius: 150px;
+}
+
+.top{
+	padding: 0 20px 20px 20px;
+	color: #74BFBB;
+	margin: 15px;
+	margin-bottom: 40px;
+	text-align: justify;
+	background: #26403E;
+	border-radius: 40px;
+}
+
+.lista_hobbies{
+
+	text-align: left;
+
+}
+
+.hob{
+	font-size: 20px;
+	letter-spacing: 4px;
+
+			display: inline-block;
+			background: #13201F;
+			padding: 10px;	
+			padding-right: 20px;
+			border-radius:30px;
+			margin: 4px;	
+}

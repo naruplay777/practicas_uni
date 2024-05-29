@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> <!-- (Elemento HTML5 no explicado en clases) Estoy importando una fuente mediante la etiqueta link, si no hay conexion a internet se utilizara la fuente predeterminada-->
+
+
+<!-- En esta seccion hago aplicacion de CSS del modo interno-->
+	<style>
+		
+		h1{
+			background: #13201F;
+			font-size: 50px;
+			letter-spacing: 2px;
+			font-weight: 800;
+			text-align: center;
+			text-decoration: underline;
+			padding: 20px;
+			border-radius: 40px;
+		}
+
+		h2{
+
+			display: inline-block;
+			background: #13201F;
+			padding: 10px;	
+			padding-right: 20px;
+			border-radius:30px;
+			font-size: 35px;
+
+		}
+
+		h3{
+			display: inline-block;
+			background: #13201F;
+			padding: 10px;	
+			padding-right: 20px;
+			border-radius:30px;
+			font-size: 25px;
+
+		}	
+
+		h4{
+			display: inline-block;
+			background: #26403E;
+			padding: 10px;	
+			padding-right: 20px;
+			border-radius:30px;
+			font-size: 25px;
+			margin: 10px 0 0 0;
+			color: #74BFBB;
+
+		}			
+
+	</style>
+<!--Aqui termina el uso de CSS del modo interno-->
+
+
+
+<link rel="stylesheet" type="text/css" href="../CSS/estilo.css"> <!--Aqui hago uso de CSS del modo externo-->
+
+<title>Andres Gonzalez</title>
+
+</head>
+
+<!--Aqui Empieza el cuerpo de la pagina-->
+
+<body>
+
+<div class="imagen"><!--Aqui hago un div que contendra una imagen y un parrafo a su derecha-->
+
+<img class="icono" src="../IMG/yoo.jpg" style="margin-bottom: 15px;"><!--Aqui coloco la imagen que esta en la carpeta IMG con el nombre de "yoo.jpg"-->
+
+<div class="top">
+
+	<h1>Pagina personal: Andres Gonzalez</h1>
+
+	<h2>Mis Hobbies Favoritos:</h2>
+
+	<p style="font-weight: 700; letter-spacing: 2px; margin: 0; font-size: 20px;">En mi tiempo libre, disfruto de una variedad de actividades que me permiten relajarme, mantenerme activo y expresar mi creatividad. Entre mis hobbies se destacan los videojuegos, el ejercicio, la música y la escritura. Cada uno de ellos aporta algo único y valioso a mi vida, ofreciéndome tanto diversión como oportunidades para el crecimiento personal.</p><!--Aqui hago uso de CSS del modo In-Line-->
+
+	<ol>
+		<li class="hob"><a href="#jugar" style="color: #74BFBB;">Jugar Video Juegos<a/></li>
+		<li class="hob"><a href="#ejercicio" style="color: #74BFBB;">Hacer Ejercicio</a></li><!-- (Elemento HTML5 no explicado en clases) Estoy haciendo un enlace a una direccion especifica dentro de la misma pagina-->
+
+		<li class="hob"><a href="index2.html#musica" style="color: #74BFBB;">Escuchar Musica</a></li>
+		<li class="hob"><a href="index2.html#escribir" style="color:#74BFBB;">Escribir</a></li><!-- (Elemento HTML5 no explicado en clases) Estoy haciendo un enlace a una direccion especifica en una pagina distintinta-->
+
+	</ol>
+
+</div>
+</div>
+
+
+<div id="jugar" class="hobbies"> <!--Aqui se utiliza la clase hobbie que se encarga de ceparar las secciones dentro de la pagina-->
+
+	<h3>1. Jugar Video Juegos</h3>
+
+	<div   class="lista_hobbies">
+
+		<h4 style="background: #13201F;">Mis juegos Favoritos:</h4>
+
+		<ul>
+			<li class="hob"> <a style="color: #74BFBB;" href="#lugar_isaac">The Binding of Isaac</a></li><!--Aqui hago uso de CSS del modo In-Line-->
+
+			<li class="hob"> <a style="color: #74BFBB;" href="#lugar_Minecraft">Minecraft</a></li><!--Aqui hago uso de CSS del modo In-Line-->
+			
+			<li class="hob"> <a style="color: #74BFBB;" href="#lugar_lol">League Of Legends</a></li>
+			<li class="hob"> <a style="color: #74BFBB;" href="#lugar_pokemon">Pokemon Negro/Blanco</a></li><!-- (Elemento HTML5 no explicado en clases) Estoy haciendo un enlace a una direccion especifica dentro de la misma pagina-->
+
+		</ul>
+	</div>
+
+<div id="lugar_isaac" class="imagen"><!--Aqui hago un div que contendra una imagen y un parrafo a su derecha-->
+
+<img class="icono" src="../IMG/isaac.png">
+<div class="juegosFAV">
+<h4 >The Binding of Isaac:</h4>
+		
+		<p>"The Binding of Isaac" es un juego de acción y aventura desarrollado por Edmund McMillen y Florian Himsl. Lanzado originalmente en 2011, el juego se inspira en la historia bíblica del mismo nombre, en la cual Abraham recibe la orden de sacrificar a su hijo Isaac.</p>
+
+		<p>En el juego, los jugadores controlan a Isaac, un niño que debe escapar al sótano de su casa para evitar ser sacrificado por su madre, quien cree haber recibido una orden divina. A lo largo del juego, Isaac explora mazmorras generadas aleatoriamente, enfrentándose a una variedad de enemigos y jefes. En su viaje, recoge objetos que le otorgan habilidades especiales, mejorando sus posibilidades de supervivencia.</p>
+
+		<p>Con su estilo de arte distintivo, jugabilidad desafiante y temática oscura, "The Binding of Isaac" ha ganado una gran base de seguidores y ha dado lugar a varias expansiones y versiones mejoradas, consolidándose como un clásico moderno en el género de los roguelike.</p>
+</div>
+</div>
+
+<div id="lugar_Minecraft" class="imagen"><!--Aqui hago un div que contendra una imagen y un parrafo a su derecha-->
+
+<img class="icono" src="../IMG/minecraft.png">	
+<div class="juegosFAV">
+<h4 >Minecraft</h4>
+
+		<p>"Minecraft" es un popular juego de construcción y aventura desarrollado por Mojang Studios, lanzado oficialmente en 2011. El juego, creado por Markus "Notch" Persson, ofrece a los jugadores un mundo abierto generado proceduralmente, compuesto por bloques tridimensionales que representan diferentes materiales como tierra, piedra, madera y agua.</p>
+
+		<p>En "Minecraft", los jugadores pueden explorar, extraer recursos, construir estructuras y crear herramientas. El juego presenta varios modos, incluyendo:</p> 
+	<ul>
+		 <li>Supervivencia (Survival): Los jugadores deben gestionar su salud y hambre mientras construyen refugios y evitan peligros como monstruos y caídas.</li>
+		<li> Creativo (Creative): Proporciona acceso ilimitado a todos los recursos y permite volar, facilitando la construcción sin restricciones.</li>
+
+		<li> Aventura (Adventure): Similar al modo Supervivencia, pero con restricciones que promueven la resolución de puzzles y la interacción con mapas creados por otros jugadores.</li>
+
+		<li>Espectador (Spectator): Permite a los jugadores explorar el mundo sin interactuar con él.</li>
+	</ul>
+		<p>"Minecraft" es conocido por su jugabilidad abierta y la libertad que ofrece a los jugadores para crear sus propios mundos y experiencias. Ha fomentado una vibrante comunidad que produce mods, mapas personalizados y contenido variado. Su impacto en la cultura popular y en la industria de los videojuegos es significativo, convirtiéndose en uno de los juegos más vendidos de todos los tiempos.	
+		</p>
+</div>
+</div>
+
+<div id="lugar_lol" class="imagen"><!--Aqui hago un div que contendra una imagen y un parrafo a su derecha-->
+
+<img class="icono" src="../IMG/lol.png">	
+<div class="juegosFAV">
+<h4 >League of Legends</h4>
+
+		<p>"League of Legends" (LoL) es un popular juego de estrategia en línea desarrollado por Riot Games, lanzado inicialmente en 2009. Este juego se enmarca dentro del género MOBA (Multiplayer Online Battle Arena), donde dos equipos de jugadores compiten para destruir la base del otro equipo, defendiendo la suya propia en un mapa simétrico.</p>
+
+		<p>Cada jugador controla un campeón con habilidades únicas y se enfrenta en partidas que pueden durar entre 20 y 60 minutos. Durante la partida, los jugadores acumulan oro y experiencia al eliminar súbditos y derrotar campeones enemigos, lo que les permite mejorar sus habilidades y adquirir objetos que potencian sus estadísticas.</p>
+
+		<p>El juego ofrece una amplia variedad de campeones, cada uno con un estilo de juego único y roles específicos como tanques, asesinos, magos, tiradores (ADC) y soportes. Además, cuenta con un metajuego dinámico que cambia con cada actualización, manteniendo a la comunidad involucrada y estratégicamente activa.</p>
+
+		<p>"League of Legends" es conocido por su escena competitiva global, con torneos profesionales que atraen a millones de espectadores y ofrecen premios significativos. Ha establecido un impacto duradero en la cultura de los deportes electrónicos (esports) y continúa siendo uno de los juegos más jugados y seguidos en la industria de los videojuegos.</p>
+</div>
+</div>
+
+<div id="lugar_pokemon" class="imagen"><!--Aqui hago un div que contendra una imagen y un parrafo a su derecha-->
+
+<img class="icono" src="../IMG/pokemon.png">
+<div class="juegosFAV">		
+<h4 >Pokemon Negro/Blanco</h4>
+
+		<p>"Pokémon Negro y Blanco" son juegos de rol desarrollados por Game Freak y publicados por Nintendo y The Pokémon Company para la consola Nintendo DS, lanzados en 2010 en Japón y en 2011 en otras regiones. Estos juegos marcan la quinta generación de la serie Pokémon y presentan nuevos Pokémon, personajes y mecánicas de juego.</p>
+
+		<p>Los jugadores asumen el papel de un entrenador Pokémon que viaja por la región de Teselia, capturando y entrenando Pokémon para convertirse en el Campeón de la Liga Pokémon. A lo largo del juego, enfrentan desafíos como derrotar al Equipo Plasma, una organización que busca liberar a los Pokémon de la "opresión" de los humanos.</p>
+
+		<p>"Pokémon Negro y Blanco" introducen características nuevas como las estaciones climáticas que afectan a la jugabilidad y la batalla triple, donde cada entrenador usa tres Pokémon simultáneamente. Además, mejoraron los gráficos y la animación de los Pokémon durante las batallas, ofreciendo una experiencia visual más dinámica.</p>
+
+		<p>Estos juegos fueron elogiados por su narrativa más profunda y los cambios significativos en el diseño de los Pokémon y las mecánicas de juego. Continuaron la tradición de ofrecer una amplia variedad de Pokémon para capturar y entrenar, así como eventos especiales y funciones multijugador que fomentan la interacción entre los jugadores.</p>
+	</div>
+</div>
+</div>
+
+<div id="ejercicio" class="hobbies"> <!--Aqui se utiliza la clase hobbie que se encarga de ceparar las secciones dentro de la pagina-->
+
+<h3>2. Hacer Ejercicio</h3>
+	
+	<div class="juegosFAV">
+
+	<p>El hacer ejercicio regularmente ha sido una parte esencial de mi vida, con impactos significativos en mi bienestar general. En el aspecto físico, he experimentado mejoras notables en mi salud cardiovascular y en mi resistencia muscular. Esto se traduce en una sensación de energía renovada y una mayor capacidad para afrontar las demandas diarias con vigor y vitalidad.</p>
+
+	<p>Pero los beneficios del ejercicio van más allá de lo físico. En el plano emocional, he experimentado una notable mejora en mi estado de ánimo. La liberación de endorfinas durante el ejercicio ha contribuido a reducir el estrés y la ansiedad, proporcionándome una sensación de calma y bienestar después de cada sesión de entrenamiento.</p>
+
+	<p>Además, el ejercicio ha fortalecido mi disciplina y mi capacidad para establecer y alcanzar metas. Mantener una rutina de ejercicio regular requiere compromiso y determinación, lo que se traduce en un aumento de la autoestima y la confianza en uno mismo. Cada logro en mi entrenamiento me brinda una sensación de realización y me impulsa a superar nuevos desafíos.</p>
+
+	<p>En definitiva, el ejercicio ha sido una inversión en mi salud y mi bienestar, tanto físico como mental. Sus beneficios se extienden a todos los aspectos de mi vida, proporcionándome una base sólida para enfrentar los desafíos y disfrutar de una vida plena y saludable.</p>
+	</div>
+
+</div>
+
+<div class="hobbies">
+	
+	<h3 style="letter-spacing: 15px; font-weight: 900; font-size: 40px;"><a style="color: #74BFBB;" href="index2.html">Siguiente Pagina</a></h3> <!--Aqui esta un enlace para ir a la siguiente pagina-->	
+
+</div>
+
+
+</body>
+
+</html>
